@@ -1,0 +1,10 @@
+---
+- name: Install git
+  apt:
+    name: git
+    state: present
+    update_cache: yes
+# configure git profile, main branch, editor, etc.
+# install terraform
+# install python
+# install docker
